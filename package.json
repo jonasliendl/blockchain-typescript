@@ -1,0 +1,19 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "A simple Blockchain built with TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Jonas Liendl",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
